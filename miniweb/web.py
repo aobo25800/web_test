@@ -212,30 +212,30 @@ def delete(file_name, url_param, url=None):
 
     return "取消关注成功"
 
-def app(environ, start_response):
-    status = '200 OK'
-    response_headers = [('Content-Type', 'text/html')]
-    start_response(status, response_headers)
-
-    # 取出浏览器传递给web服务器的url中的 请求资源路径
-    # /a/b/c/index.html
-    file_name = environ['PATH_INFO']
-    url_param = environ['URL_DAT']     
-
-    try:
-        # /update/300268.html
-        # r"/update/\d*\.html"
-        # g_url_func = {
-        #     r"/index\.html":index,
-        #     r"/center\.html":center,
-        #     r"/update/\d*\.html":update,
-        # }
-
-        for url, call_func in g_url_func.items():
-            ret = re.match(url, file_name)
-            if ret:
-                return call_func(file_name,url_param,url)
-        else:
-            return "没有要访问的页面，请求的页面是：%s" % file_name
-    except Exception as ret:
-        return "%s,,,,,%s" % (str(environ), ret)
+# def app(environ, start_response):
+#     status = '200 OK'
+#     response_headers = [('Content-Type', 'text/html')]
+#     start_response(status, response_headers)
+#
+#     # 取出浏览器传递给web服务器的url中的 请求资源路径
+#     # /a/b/c/index.html
+#     file_name = environ['PATH_INFO']
+#     url_param = environ['URL_DAT']
+#
+#     try:
+#         # /update/300268.html
+#         # r"/update/\d*\.html"
+#         # g_url_func = {
+#         #     r"/index\.html":index,
+#         #     r"/center\.html":center,
+#         #     r"/update/\d*\.html":update,
+#         # }
+#
+#         for url, call_func in g_url_func.items():
+#             ret = re.match(url, file_name)
+#             if ret:
+#                 return call_func(file_name,url_param,url)
+#         else:
+#             return "没有要访问的页面，请求的页面是：%s" % file_name
+#     except Exception as ret:
+#         return "%s,,,,,%s" % (str(environ), ret)

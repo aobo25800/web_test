@@ -14,7 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,8 +48,8 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -60,23 +60,23 @@
       <file leaf-file-name="web.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="214" column="11" lean-forward="false" selection-start-line="214" selection-start-column="11" selection-end-line="240" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1555484500000" expanded="true" signature="635:653" ph="select * fro... info" />
-                <marker date="1555484500000" expanded="true" signature="1619:1637" ph="select * fro... info" />
-                <marker date="1555484500000" expanded="true" signature="2563:2684" ph="select i.cod... info" />
-                <marker date="1555484500000" expanded="true" signature="3520:3601" ph="select note_... focus" />
-                <marker date="1555484500000" expanded="true" signature="3565:3600" ph="select id fr... info" />
-                <marker date="1555484500000" expanded="true" signature="4342:4429" ph="update focus... " />
-                <marker date="1555484500000" expanded="true" signature="4393:4428" ph="select id fr... info" />
-                <marker date="1555484500000" expanded="true" signature="4880:4953" ph="select * fro... focus" />
-                <marker date="1555484500000" expanded="true" signature="4917:4952" ph="select id fr... info" />
-                <marker date="1555484500000" expanded="true" signature="5105:5168" ph="insert into focus... " />
-                <marker date="1555484500000" expanded="true" signature="5133:5168" ph="select id fr... info" />
-                <marker date="1555484500000" expanded="true" signature="5585:5656" ph="delete from " />
-                <marker date="1555484500000" expanded="true" signature="5620:5655" ph="select id fr... info" />
+                <marker date="1555486248636" expanded="true" signature="635:653" ph="select * fro... info" />
+                <marker date="1555486248636" expanded="true" signature="1619:1637" ph="select * fro... info" />
+                <marker date="1555486248636" expanded="true" signature="2563:2684" ph="select i.cod... info" />
+                <marker date="1555486248636" expanded="true" signature="3520:3601" ph="select note_... focus" />
+                <marker date="1555486248636" expanded="true" signature="3565:3600" ph="select id fr... info" />
+                <marker date="1555486248636" expanded="true" signature="4342:4429" ph="update focus... " />
+                <marker date="1555486248636" expanded="true" signature="4393:4428" ph="select id fr... info" />
+                <marker date="1555486248636" expanded="true" signature="4880:4953" ph="select * fro... focus" />
+                <marker date="1555486248636" expanded="true" signature="4917:4952" ph="select id fr... info" />
+                <marker date="1555486248636" expanded="true" signature="5105:5168" ph="insert into focus... " />
+                <marker date="1555486248636" expanded="true" signature="5133:5168" ph="select id fr... info" />
+                <marker date="1555486248636" expanded="true" signature="5585:5656" ph="delete from " />
+                <marker date="1555486248636" expanded="true" signature="5620:5655" ph="select id fr... info" />
               </folding>
             </state>
           </provider>
@@ -124,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -139,7 +140,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,6 +276,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -345,27 +351,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -406,7 +412,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="330">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4554">
+          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1555486248636" expanded="true" signature="635:653" ph="select * fro... info" />
+            <marker date="1555486248636" expanded="true" signature="1619:1637" ph="select * fro... info" />
+            <marker date="1555486248636" expanded="true" signature="2563:2684" ph="select i.cod... info" />
+            <marker date="1555486248636" expanded="true" signature="3520:3601" ph="select note_... focus" />
+            <marker date="1555486248636" expanded="true" signature="3565:3600" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="4342:4429" ph="update focus... " />
+            <marker date="1555486248636" expanded="true" signature="4393:4428" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="4880:4953" ph="select * fro... focus" />
+            <marker date="1555486248636" expanded="true" signature="4917:4952" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="5105:5168" ph="insert into focus... " />
+            <marker date="1555486248636" expanded="true" signature="5133:5168" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="5585:5656" ph="delete from " />
+            <marker date="1555486248636" expanded="true" signature="5620:5655" ph="select id fr... info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/环境安装/安装说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
           <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -416,23 +479,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="4554">
           <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1555484500000" expanded="true" signature="635:653" ph="select * fro... info" />
-            <marker date="1555484500000" expanded="true" signature="1619:1637" ph="select * fro... info" />
-            <marker date="1555484500000" expanded="true" signature="2563:2684" ph="select i.cod... info" />
-            <marker date="1555484500000" expanded="true" signature="3520:3601" ph="select note_... focus" />
-            <marker date="1555484500000" expanded="true" signature="3565:3600" ph="select id fr... info" />
-            <marker date="1555484500000" expanded="true" signature="4342:4429" ph="update focus... " />
-            <marker date="1555484500000" expanded="true" signature="4393:4428" ph="select id fr... info" />
-            <marker date="1555484500000" expanded="true" signature="4880:4953" ph="select * fro... focus" />
-            <marker date="1555484500000" expanded="true" signature="4917:4952" ph="select id fr... info" />
-            <marker date="1555484500000" expanded="true" signature="5105:5168" ph="insert into focus... " />
-            <marker date="1555484500000" expanded="true" signature="5133:5168" ph="select id fr... info" />
-            <marker date="1555484500000" expanded="true" signature="5585:5656" ph="delete from " />
-            <marker date="1555484500000" expanded="true" signature="5620:5655" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="635:653" ph="select * fro... info" />
+            <marker date="1555486248636" expanded="true" signature="1619:1637" ph="select * fro... info" />
+            <marker date="1555486248636" expanded="true" signature="2563:2684" ph="select i.cod... info" />
+            <marker date="1555486248636" expanded="true" signature="3520:3601" ph="select note_... focus" />
+            <marker date="1555486248636" expanded="true" signature="3565:3600" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="4342:4429" ph="update focus... " />
+            <marker date="1555486248636" expanded="true" signature="4393:4428" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="4880:4953" ph="select * fro... focus" />
+            <marker date="1555486248636" expanded="true" signature="4917:4952" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="5105:5168" ph="insert into focus... " />
+            <marker date="1555486248636" expanded="true" signature="5133:5168" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="5585:5656" ph="delete from " />
+            <marker date="1555486248636" expanded="true" signature="5620:5655" ph="select id fr... info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/环境安装/安装说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="214" column="11" lean-forward="false" selection-start-line="214" selection-start-column="11" selection-end-line="240" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1555486248636" expanded="true" signature="635:653" ph="select * fro... info" />
+            <marker date="1555486248636" expanded="true" signature="1619:1637" ph="select * fro... info" />
+            <marker date="1555486248636" expanded="true" signature="2563:2684" ph="select i.cod... info" />
+            <marker date="1555486248636" expanded="true" signature="3520:3601" ph="select note_... focus" />
+            <marker date="1555486248636" expanded="true" signature="3565:3600" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="4342:4429" ph="update focus... " />
+            <marker date="1555486248636" expanded="true" signature="4393:4428" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="4880:4953" ph="select * fro... focus" />
+            <marker date="1555486248636" expanded="true" signature="4917:4952" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="5105:5168" ph="insert into focus... " />
+            <marker date="1555486248636" expanded="true" signature="5133:5168" ph="select id fr... info" />
+            <marker date="1555486248636" expanded="true" signature="5585:5656" ph="delete from " />
+            <marker date="1555486248636" expanded="true" signature="5620:5655" ph="select id fr... info" />
           </folding>
         </state>
       </provider>
